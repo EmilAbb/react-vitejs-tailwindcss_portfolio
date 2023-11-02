@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.custom-container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+section {
+    padding: 50px;
+}
+
+.service-card:hover {
+    background-color: #8873ef;
+}
+
+.service-card:hover h3 {
+    color: white;
+    font: 500;
+}
+
+.service-card:hover p {
+    color: white;
+    font: 500;
+
+}
