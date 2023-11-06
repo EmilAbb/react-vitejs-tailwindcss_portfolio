@@ -1,7 +1,11 @@
 import {BsSend} from 'react-icons/bs'
 import {AiOutlineMenu} from 'react-icons/ai'
+import {BsFillMoonFill} from 'react-icons/bs'
+
+
 
 const Header = () => {
+
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
         <div className="custom-container">
@@ -35,6 +39,8 @@ const Header = () => {
                     </button>
                     <span className='text-2xl text-smallTextColor md:hidden cursor-pointer'><AiOutlineMenu/></span>
                 </div>
+
+                
                 {/* {=============MENU RIGHT END=========} */}
               </div>
         </div>
